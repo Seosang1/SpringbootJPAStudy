@@ -9,6 +9,9 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
+import jpabook.jpashop.domin.Member;
+import jpabook.jpashop.domin.MemberRepo;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Rollback(false)
